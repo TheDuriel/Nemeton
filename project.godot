@@ -1,0 +1,49 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Nemeton"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/test_width=1600
+window/size/test_height=900
+
+[editor_plugins]
+
+enabled=PoolStringArray( "DurielEditorTools" )
+
+[gui]
+
+timers/tooltip_delay_sec=0.15
+
+[node]
+
+name_num_separator=2
+
+[physics]
+
+2d/physics_engine="GodotPhysics"
+3d/physics_engine="Bullet"
+
+[rendering]
+
+environment/default_clear_color=Color( 0.133333, 0.133333, 0.133333, 1 )
+quality/filters/msaa=2
+environment/default_environment="res://default_env.tres"
