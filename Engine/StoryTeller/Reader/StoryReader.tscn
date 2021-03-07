@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Engine/StoryTeller/Reader/Buttons/Buttons.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Engine/StoryTeller/Reader/Reader/Reader.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Engine/StoryTeller/Reader/Header/Header.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Engine/StoryTeller/Reader/StoryReader.gd" type="Script" id=4]
+[ext_resource path="res://Game/Theme/MainTheme.tres" type="Theme" id=5]
+
+[node name="StoryReader" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 5 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Header" parent="." instance=ExtResource( 3 )]
+margin_right = 1920.0
+margin_bottom = 39.0
+
+[node name="Reader" parent="." instance=ExtResource( 2 )]
+margin_top = 43.0
+margin_right = 1920.0
+margin_bottom = 1060.0
+size_flags_vertical = 3
+
+[node name="Buttons" parent="." instance=ExtResource( 1 )]
+margin_top = 1064.0
+margin_right = 1920.0
+margin_bottom = 1080.0

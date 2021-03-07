@@ -1,0 +1,33 @@
+[gd_scene format=2]
+
+[node name="Header" type="PanelContainer"]
+margin_right = 40.0
+margin_bottom = 28.0
+
+[node name="Title" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 33.0
+margin_bottom = 21.0
+size_flags_horizontal = 3
+
+[node name="Author" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 33.0
+margin_bottom = 21.0
+size_flags_horizontal = 3
+
+[node name="Location" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 33.0
+margin_bottom = 21.0
+size_flags_horizontal = 3
+
+[node name="Time" type="Label" parent="."]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 33.0
+margin_bottom = 21.0
+size_flags_horizontal = 3

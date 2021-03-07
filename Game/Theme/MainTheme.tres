@@ -1,0 +1,71 @@
+[gd_resource type="Theme" load_steps=13 format=2]
+
+[ext_resource path="res://Game/Theme/StyleBox/ButtonHover.tres" type="StyleBox" id=1]
+[ext_resource path="res://Game/Theme/Fonts/ParagraphRegular.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Game/Theme/StyleBox/EmptyStyleBox.tres" type="StyleBox" id=3]
+[ext_resource path="res://Game/Theme/Fonts/ParagraphDescription.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Game/Theme/Fonts/ParagraphBoldItalic.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Game/Theme/Fonts/ParagraphItalic.tres" type="DynamicFont" id=6]
+[ext_resource path="res://Game/Theme/Fonts/ParagraphBold.tres" type="DynamicFont" id=7]
+[ext_resource path="res://Game/Theme/StyleBox/Focus.tres" type="StyleBox" id=8]
+[ext_resource path="res://Game/Theme/StyleBox/ButtonPressed.tres" type="StyleBox" id=9]
+[ext_resource path="res://Game/Theme/StyleBox/Basic.tres" type="StyleBox" id=10]
+[ext_resource path="res://Game/Theme/StyleBox/ButtonDisabled.tres" type="StyleBox" id=11]
+[ext_resource path="res://Game/Theme/StyleBox/Button.tres" type="StyleBox" id=12]
+
+
+
+
+
+
+
+
+
+
+
+
+
+[resource]
+default_font = ExtResource( 2 )
+Button/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
+Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
+Button/constants/hseparation = 2
+Button/fonts/font = null
+Button/styles/disabled = ExtResource( 11 )
+Button/styles/focus = ExtResource( 8 )
+Button/styles/hover = ExtResource( 1 )
+Button/styles/normal = ExtResource( 12 )
+Button/styles/pressed = ExtResource( 9 )
+LineEdit/colors/clear_button_color = Color( 0.88, 0.88, 0.88, 1 )
+LineEdit/colors/clear_button_color_pressed = Color( 1, 1, 1, 1 )
+LineEdit/colors/cursor_color = Color( 0.94, 0.94, 0.94, 1 )
+LineEdit/colors/font_color = Color( 0.88, 0.88, 0.88, 1 )
+LineEdit/colors/font_color_selected = Color( 0, 0, 0, 1 )
+LineEdit/colors/font_color_uneditable = Color( 0.88, 0.88, 0.88, 0.5 )
+LineEdit/colors/selection_color = Color( 0.49, 0.49, 0.49, 1 )
+LineEdit/constants/minimum_spaces = 12
+LineEdit/fonts/font = null
+LineEdit/icons/clear = null
+LineEdit/styles/focus = ExtResource( 8 )
+LineEdit/styles/normal = ExtResource( 9 )
+LineEdit/styles/read_only = ExtResource( 11 )
+PanelContainer/styles/panel = ExtResource( 10 )
+RichTextLabel/colors/default_color = Color( 1, 1, 1, 1 )
+RichTextLabel/colors/font_color_selected = Color( 0.49, 0.49, 0.49, 1 )
+RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 0 )
+RichTextLabel/colors/selection_color = Color( 0.1, 0.1, 1, 0.8 )
+RichTextLabel/constants/line_separation = 1
+RichTextLabel/constants/shadow_as_outline = 0
+RichTextLabel/constants/shadow_offset_x = 1
+RichTextLabel/constants/shadow_offset_y = 1
+RichTextLabel/constants/table_hseparation = 3
+RichTextLabel/constants/table_vseparation = 3
+RichTextLabel/fonts/bold_font = ExtResource( 7 )
+RichTextLabel/fonts/bold_italics_font = ExtResource( 5 )
+RichTextLabel/fonts/italics_font = ExtResource( 6 )
+RichTextLabel/fonts/mono_font = ExtResource( 4 )
+RichTextLabel/fonts/normal_font = ExtResource( 2 )
+RichTextLabel/styles/focus = ExtResource( 3 )
+RichTextLabel/styles/normal = ExtResource( 3 )

@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Engine/StoryTeller/Nodes/Root.gd" type="Script" id=1]
+[ext_resource path="res://Engine/StoryTeller/Nodes/Paragraph.gd" type="Script" id=2]
+
+[node name="MyNewStory" type="Node"]
+script = ExtResource( 1 )
+author = "TheDuriel"
+
+[node name="Paragraph" type="Node" parent="."]
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_description_": "Display a Paragraph. Optionally ensures a new line is started."
+}
+text = "Hello world!"
+
+[node name="Paragraph_2" type="Node" parent="Paragraph"]
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_description_": "Display a Paragraph. Optionally ensures a new line is started."
+}
+text = "It is a lovely day!
+This is line two."
